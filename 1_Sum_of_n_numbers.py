@@ -16,8 +16,6 @@ def sum2(N):
 t = int(input())
 while t:
     n = int(input())
-    r1 = sum1(n)
-    r2 = sum2(n)
-    print('sum1 executed output:', r1)
-    print('sum1 executed output:', r2)
+    print('sum2 executed output:', sum2(n))
+    print('sum1 executed output:', sum1(n))
     t = t - 1
